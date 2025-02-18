@@ -8,7 +8,7 @@
     --shadowW : rgba(255, 255, 255, 0.15);
     --white: #FFF;
     --grise:#c5c5c5;
-    --css:#7800af;
+    --cssColor:#7800af;
     --html:#a80000;
 
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
     margin: 20px auto; // permet de centrer l'image horizontalement
     max-width: 1440px;
     font-size: 1rem;
-    font-family: 'Space mono', monospace, Verdana, san-serif;
+    font-family: "Space Mono", monospace, Verdana, sans-serif;
     background-image: url("/images/background/fondBinaire-2.svg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -58,8 +58,8 @@ p{
         padding: 10px;
         height: 10em;
     }
-    & #css{
-        color: var(--css);
+    & #cssLogo{
+        color: var(--cssColor);
     }
 }
 
