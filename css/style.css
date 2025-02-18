@@ -68,7 +68,6 @@ p {
   color: var(--or);
   text-decoration: none;
   padding-right: 10px;
-  gap: 50px;
 }
 
 #imgPortrait {
@@ -101,8 +100,7 @@ p {
   width: 250px;
   height: auto;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: absolute;
 }
